@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/armenia-circular.png" type="image/x-icon">
+    <title>Армения в фотографиях</title>
+    <style>
+        body {
+            margin: 0; padding: 0;
+            background-color: rgb(208, 208, 228);
+            background-image: url('img/yerevan.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+            background-position: top center;
+        }
+        header {
+            height: 100vh;
+            font-size: 20pt;
+            letter-spacing: 30px;
+            color: rgba(255, 248, 236, .65);
+            transition: .3s;
+        } 
+        h1{
+            text-align: center;
+            margin-top: 260px;
+            transition: .4s;
+        } h1:hover { cursor: pointer; color: rgb(255, 248, 236); }
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: rgba(208, 208, 228,0.575);
+            padding-bottom: 100px;
+        }
+        .bl1 {
+            position: relative;
+            height: 260px;
+            margin: 30px auto 0;
+            border: 6px solid white;
+            border-radius: 8px;
+            box-shadow: 0 0px 30px 20px rgba(0,0,0,.3);
+        }
+        .bl2 {
+            position: absolute;
+            top: 225px;
+            left: 0;
+            height: 35px;
+            line-height: 35px;
+            width: 100%;
+            background-color: rgba(0,0,0,.5);
+            color: rgb(255, 248, 236);
+            font-size: 22pt;
+            text-align: center;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <header>
+        <h1 onclick="
+                window.scroll({
+                    top: document.querySelector('main').offsetTop,
+                    left:0,
+                    behavior: 'smooth'
+                })
+        ">
+            ՀԱՅԱՍՏԱՆ
+            <br><br>
+            АРМЕНИЯ
+            <br><br>
+            <svg class="bi bi-arrow-down-short" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 01.708 0L8 10.293l2.646-2.647a.5.5 0 01.708.708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M8 4.5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+            </svg>
+        </h1>
+
+    </header>
+    <main>
+
+        <div class='bl1'>
+            <img src="img/rsq.jpg" height="100%">
+            <div class="bl2">
+                Площадь Республики
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/opera.jpg" height="100%">
+            <div class="bl2">
+                Оперный Театр им. А. Спендиарова
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/cascade.jpg" height="100%">
+            <div class="bl2">
+                Ереванские Каскадные Холмы
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/parlaiment.jpg" height="100%">
+            <div class="bl2">
+                Национальное Собрание РА
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/zvartnots.jpg" height="100%">
+            <div class="bl2">
+                Храм Бдящих Ангелов "Звартноц"
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/garni.jpg" height="100%">
+            <div class="bl2">
+                Языческий Храм Гарни
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/tatev.jpg" height="100%">
+            <div class="bl2">
+                Монастырь Татев
+            </div>
+        </div>
+        <div class='bl1'>
+            <img src="img/sobor.jpg" height="100%">
+            <div class="bl2">
+                Собор Святого Григора Лусаворича
+            </div>
+        </div>
+    </main>
+</body>
+</html>

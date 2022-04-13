@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI",Arial, Helvetica, sans-serif;
+        }
+        .wrapper {
+            width: 980px;
+            margin: auto;
+        }
+        .header {
+            box-sizing: border-box;
+            height: 200px;
+            background: url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/66697167_1660628607414964_2960068619767119872_o.jpg?_nc_cat=102&_nc_sid=e3f864&_nc_ohc=9iJ_EWI3A3IAX_GZ1jl&_nc_ht=scontent-arn2-1.xx&oh=93f00a76c266bb3620d67ab2b74cda3d&oe=5EFA68CE") center #5af353;
+            padding: 50px 0 0 140px;
+            color: #fff;
+        }
+        .main {
+            display: flex;
+            flex-direction: row;
+            background: #bbe7cf91;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 240px;
+        }
+        .article {
+            flex-basis: 200px;
+            border: 2px solid #2c5c41;
+            border-radius: 8px;
+            margin: 20px 20px 0 20px;
+            background: #6edfa1;
+            overflow: hidden;
+        }
+        .content,.right {
+            margin: 20px 20px 0 0;
+        }
+        .content {
+            flex-basis: 500px;
+            text-align: justify;
+            text-indent: 20px;
+        } 
+        p {margin-top: 0;}
+        .right {
+           flex-basis: 200px;
+           background:  #aac2b48e;
+           color: #203b2c;
+           padding-left: 5px;
+           box-sizing: border-box;
+        }
+        .footer {
+            height: 50px;
+            background: linear-gradient(180deg, #bbe7cf91,#1d834b91);
+            position: relative;
+        }
+        .copy {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-bottom: 2px;
+            color: #2c5c41;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+            <header class="header">
+        <h1>
+            Lorem ipsum, dolor sit amet
+        </h1>
+    </header>
+    <main class="main">
+        <div class="left">
+            <div class="article">
+                <img src="http://zornet.ru/_fr/81/7127571.jpg" height="100%">
+            </div>
+            <div class="article">
+                <img src="http://zornet.ru/_fr/81/1348374.jpg" height="100%">
+            </div>
+            <div class="article">
+                <img src="http://zornet.ru/_fr/81/3964034.jpg" height="100%">
+            </div>
+            <div class="article">
+                <img src="http://zornet.ru/_fr/81/6284895.jpg" height="100%">
+            </div>
+        </div>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore provident assumenda tempore, perferendis sed, iste optio placeat similique, quod nihil iusto eius velit a magnam at eligendi eum earum ab.
+                Non adipisci distinctio nemo cumque velit ipsam corporis eaque dolor placeat natus repellendus consequuntur, iusto nisi numquam odio vel doloribus quaerat. Consectetur, nisi? Animi asperiores, mollitia ut commodi eius perspiciatis?
+                Ex, soluta molestias accusantium ducimus est facere odit, aperiam quisquam, non iste hic eius illum necessitatibus debitis. Optio unde deserunt, mollitia placeat nemo ducimus tenetur dignissimos reprehenderit quis, beatae dolores!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos repellendus totam, distinctio natus eaque, nostrum iusto qui, cupiditate dolores ex aspernatur dolorem culpa ut. Quo accusantium ab ipsam voluptatem eaque.
+                Magni, fuga provident. Quis nulla numquam error aperiam officiis, quibusdam est repellat quaerat facilis id asperiores consectetur aut aliquid officia quasi minus rerum labore molestias explicabo dignissimos tenetur hic? Expedita!
+                Eos incidunt accusamus fugit veniam voluptas repellendus adipisci, excepturi soluta mollitia provident cum, atque laudantium tenetur molestias doloremque sed numquam repudiandae fuga! Voluptatibus exercitationem quas corporis, sapiente aliquam vero mollitia.
+                Fuga, nulla non officia molestias corporis nesciunt quo delectus esse necessitatibus! Inventore, et repudiandae nam eligendi fugiat sequi eaque doloribus officia eius, sunt ducimus impedit aspernatur animi. Impedit, ipsa facere?
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint atque aliquam quos optio facilis, recusandae cumque reprehenderit cupiditate incidunt libero repellendus mollitia at sequi! Sequi ea aperiam beatae ullam consequatur!
+                Cum sint non libero delectus voluptate eligendi blanditiis perspiciatis adipisci ad. Eaque dicta quasi minima veniam earum, consequatur commodi illum ipsam, minus deleniti magnam quam voluptates mollitia omnis? Possimus, quas.
+                Eos voluptatum illum cum aut quisquam explicabo. Autem, iusto quaerat. Consequuntur quae ipsum eaque assumenda sapiente ipsam voluptate repellendus, doloribus fugit ab quisquam, quas eum delectus? Dolorem maiores quidem eveniet?
+                Consectetur illo maiores id harum mollitia dicta repellat itaque? Deserunt, ullam eos saepe voluptatum alias ad. Aspernatur accusantium obcaecati voluptatum, vel amet necessitatibus inventore ratione fugiat veniam esse, consequatur assumenda.
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dolore, pariatur id nesciunt recusandae aliquam labore ullam explicabo culpa quia dolor voluptatem iste officiis provident temporibus aspernatur nihil, minima maxime.Error saepe ut consequatur voluptatem vitae neque. Aliquid saepe aperiam consectetur voluptates. Ipsam impedit aliquam delectus omnis recusandae necessitatibus voluptates dolorum perferendis maiores tempora facere exercitationem, deleniti possimus earum blanditiis!
+            </p>
+        </div>
+        <div class="right">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero doloremque iure earum recusandae quaerat minus natus odit, explicabo neque quod, amet ipsa consequuntur voluptas vero quam expedita dolorem temporibus reiciendis.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio voluptas mollitia doloremque iusto, nemo ab. Eum ut distinctio fugit placeat aliquam. Quibusdam asperiores nam impedit, repudiandae molestiae quia. Quia.Aspernatur possimus nisi fuga architecto quis vel at libero, voluptate, iure, mollitia corporis!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptates placeat adipisci minus at dolores officia ipsa doloremque quaerat nobis, tempore, sed in, magni veritatis voluptatibus.
+            </p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copy">
+            Арам Караханян 31ИН &nbsp; &copy; &nbsp; Задание на верстку 1
+        </p>
+    </footer>
+    </div>
+
+</body>
+</html>

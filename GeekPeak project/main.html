@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekPeak - Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">    
+</head>
+<body>
+    <div class="div-scroll">
+        <button class="btn-scroll">
+            Наверх
+            <svg class="bi bi-arrow-up-short" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 5.5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V6a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 5.707 5.354 8.354a.5.5 0 11-.708-.708l3-3z" clip-rule="evenodd"/>
+            </svg>
+        </button>
+    </div>
+    
+    <!-- Settings block -->
+    <div id="settings-bg" class="setBG-hide">
+    </div>
+    <div id="settings" class="settings-hide">
+        <div class="settings-inner">
+            <section >
+                <h4 style="margin-bottom: 0; text-align: center;">Настройки</h4>
+            </section>
+            <section>
+                <input type="checkbox" name="" id="switch">
+                <label for="switch">&nbsp;Ночная тема</label>
+            </section>
+        </div>
+    </div>
+    <!-- end settings -->
+
+    <div class="wrapper">
+        <header>
+            <a href="main.html"><div class="heading">Geek<span>Peak</span></div></a>
+            <nav>
+                <ul>
+                    <li><a class="nav-bar" href="main.html">Статьи</a></li>
+                    <li><a class="nav-bar" href="gallery.html">Галерея</a></li>
+                    <li><a class="nav-bar" href="about.html">О нас</a></li>
+                    <li id="settings-btn">
+                        <svg class="bi bi-gear" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 014.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 01-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 011.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 012.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 012.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 011.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 01-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 018.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 001.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 00.52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 00-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 00-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 00-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 00-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 00.52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 001.255-.52l.094-.319z" clip-rule="evenodd"/>
+                            <path fill-rule="evenodd" d="M8 5.754a2.246 2.246 0 100 4.492 2.246 2.246 0 000-4.492zM4.754 8a3.246 3.246 0 116.492 0 3.246 3.246 0 01-6.492 0z" clip-rule="evenodd"/>
+                          </svg>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- end header -->
+        <div id="slider">
+            <a href="article2.html" id="slideLink">
+                <img src="img/1.jpg" id="slide">
+                <div class="art-cont cont-slider">
+                    <h3 id="slideText">
+                        69 млрд мелодий выложены в сеть, с целью борьбы с токсичной музыкальной индустрией
+                    </h3>
+                </div>
+            </a>
+            <div id="slide-btns">
+                <div id="s1">
+                </div>
+                <div id="s2">
+                </div>
+                <div id="s3">
+                </div>
+                <div id="s4">
+                </div>
+            </div>
+        </div>
+        <!---->
+        <main class="feed">
+            <div class="feed-row">
+                <a href="article1.html">
+                    <article>
+                        <img src="img/ichargeout.jpg">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                Про зарядки для iPhone: как быстро заряжать телефон  
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+                <a href="article2.html">
+                    <article>
+                        <img src="img/muz69out.jpg">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                69 млрд мелодий выложены в сеть, с целью борьбы с токсичной музыкальной индустрией
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <div class="feed-row">
+                <a href="article3.html">
+                    <article>
+                        <img src="img/podsout.jpg">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                Замена вкладышей AirPods Pro. Быстро и просто, а главное правильно
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+                <a href="article4.html">
+                    <article>
+                        <img src="img/AIkidout.jpg" width="100%">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                ИИ, имитирующий детское познание мира, оказалось сложнее запутать
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+                <a href="article5.html">
+                    <article>
+                        <img src="img/asusout.jpg">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                Обзор ноутбука  ASUS ROG Zephyrus G14 GA401IV: малые размеры не есть беда! 
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <div class="feed-row">
+                <a href="article6.html">
+                    <article>
+                        <img src="img/chipout.jpg">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                Вакцина от коронавируса с чипами Билла Гейтса и ответка маэстро конспирологии, Никиты Михалкова
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+                <a href="article7.html">
+                    <article>
+                        <img src="img/nbotout.jpg">
+                        <div class="art-cont cont-1">
+                            <h3>
+                                Ninebot Air T15<br>электрический самокат с интересным внешним видом
+                            </h3>
+                        </div>
+                        <div class="art-cont cont-2">
+                            <h4>
+                                Читать далее...
+                            </h4>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <div class="feed-load">
+                Загрузить еще  <br>
+                <svg class="bi bi-plus-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zM8.5 4a.5.5 0 00-1 0v3.5H4a.5.5 0 000 1h3.5V12a.5.5 0 001 0V8.5H12a.5.5 0 000-1H8.5V4z" clip-rule="evenodd"/>
+                </svg>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a class="nav-bar" href="about.html">О нас</a></li>
+                    <li>
+                        <div style="margin: 38px 0 ;" class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter,telegram"></div>
+                    </li>
+                </ul>
+            </nav>
+            <a href="main.html"><div class="heading">Geek<span>Peak</span></div></a>
+            <nav>
+                <ul>
+                    <li><a class="nav-bar" href="main.html">Статьи</a></li>
+                    <li><a class="nav-bar" href="gallery.html">Галерея</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <footer class="copy">
+            &copy;&nbsp; Арам Караханян "Приложение для курсового проекта", 2020
+        </footer>        
+    </div>
+    <!--icons-->
+    <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="https://yastatic.net/share2/share.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

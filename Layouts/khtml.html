@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Пример вёрстки веб-страницы</title>
+    <style>
+        body {
+            background: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+            margin: 0px;
+        }
+        
+         :root {
+            height: 100%;
+        }
+        
+        .main-menu {
+            background-color: #dddddd;
+            border: black 1px solid;
+            background: url(../img/bg10.jpg);
+            background-size: 100% 100%;
+            font-size: 35px;
+        }
+        
+        .main-content {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .main-left {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .main-left-child1 {
+            width: 150px;
+            height: 150px;
+            margin: 10px 10px 0px 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 0, 234);
+        }
+        
+        .main-left-child2 {
+            width: 150px;
+            height: 150px;
+            margin: 10px 10px 0px 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 0, 234);
+        }
+        
+        .main-left-child3 {
+            background: url(../img/pict16.jpg);
+            width: 150px;
+            height: 150px;
+            margin: 10px 10px 0px 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 0, 234);
+        }
+        
+        .main-left-child4 {
+            background: url(../img/crimea1.jpg);
+            width: 150px;
+            height: 150px;
+            margin: 10px 10px 0px 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 0, 234);
+        }
+        
+        .content {
+            padding: 15px;
+            text-align: justify;
+            text-indent: 20px;
+            margin-top: 10px;
+            width: 50%;
+            height: 50%;
+            background-color: rgba(241, 172, 207, 0.747);
+            line-height: 1.5;
+            border: hotpink 1px solid;
+        }
+        
+        .right {
+            height: 432px;
+            width: 30%;
+            padding: 15px;
+            margin-top: 10px;
+            margin-left: 40px;
+            background-color: rgba(202, 172, 241, 0.747);
+            line-height: 1.5;
+            border: mediumorchid 1px solid;
+        }
+        
+        .nav1 a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .nav1 li {
+            display: inline-block;
+        }
+        
+        .main-footer {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+            background: rgba(109, 109, 248, 0.363);
+            padding: 10px;
+            order: 3;
+        }
+        
+        .m1 {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="m1">
+        <nav class="main-menu">
+            <p style="border: crimson 1px solid; width: 450px; margin-left: 50px;">
+                Lorem ipsum dolor sit amet.
+            </p>
+        </nav>
+
+        <main class="main-content">
+            <div class="main-left">
+                <div class="main-left-child1">
+                    <img src="img/crimea1.jpg" width="150px" height="150px" style="border-radius: 10px;" alt="">
+                </div>
+                <div class="main-left-child2">
+                    <img src="img/pict17.jpg" width="150px" height="150px" style="border-radius: 10px;" alt="">
+                </div>
+                <div class="main-left-child3">
+                    <img src="img/pict16.jpg" width="150px" height="150px" style="border-radius: 10px;" alt="">
+                </div>
+                <div class="main-left-child4">
+                    <img src="img/pict15.jpg" width="150px" height="150px" style="border-radius: 10px;" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="content">
+
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quo eos ratione voluptatum amet optio sed odio magnam voluptates exercitationem neque cumque assumenda, et dolor! Dolorum, doloribus. Voluptatum, voluptates sunt. Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Corrupti maxime aut facere architecto. Vero eligendi cupiditate magni mollitia numquam assumenda, ducimus incidunt ut ea aperiam cumque nostrum quam velit eaque? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Beatae aperiam, alias aut voluptas non, libero sequi rerum veritatis hic numquam id! Non recusandae itaque deleniti perspiciatis porro saepe qui quaerat.
+
+
+            </div>
+
+            <div class="right">
+
+                <nav class="nav1">
+                    <li><a href="#">Первый раздел</a></li>
+                    <li><a href="#">Второй раздел</a></li>
+                    <li><a href="#">Третий раздел</a></li>
+                    <li><a href="#">Четвёртый раздел</a></li>
+                    <li><a href="#">Пятый раздел</a></li>
+                </nav>
+
+            </div>
+        </main>
+        <footer class="main-footer">Copyright &copy;</footer>
+    </main>
+    
+</body>
+
+
+
+</html>
